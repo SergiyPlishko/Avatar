@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 body {
   margin: 0;
   padding: 0;
@@ -211,12 +214,41 @@ padding-bottom: 10px;
 .section-language {
   width: 1440px;
 height: 704px;
-background-image: url("./image/Rectangle.20.png");
+background-image: url("../image/Rectangle.20.png");
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
 margin: auto;
+padding-top: 58px;
+padding-bottom: 58px;
 }
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 45px;
+  column-gap: 35px;
+  row-gap: 25px;
+  font-size: 24px;
+}
+.language-list {
+height: 240px;
+display: flex;
+flex-direction: column;
+align-items: center;
+background: rgba(255, 255, 255, 0.70);
+flex-basis: calc((100% - 70px) / 3);
+}
+
+ .list-item-bg {
+  width: 152px;
+height: 40px;
+  background-image: url("../image/arrow.card.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+ }
+
 .title-language {
   color: #141414;
 text-align: justify;
