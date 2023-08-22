@@ -128,6 +128,7 @@ p {
   height: 141px;
   display: flex;
   flex-direction: column;
+  padding-top: 300px;
 }
 .img-social {
   width: 30px;
@@ -138,6 +139,7 @@ p {
   margin-left: auto;
   margin-right: auto;
   background: #FFF;
+  padding-bottom: 10px;
 }
 .coment-one {
   color: #0A3853;
@@ -185,8 +187,7 @@ height: 120px;
   width: 1440px;
   height: 740px;
   background: url("/image/Rectangle.10.png"), lightgray 50% / cover no-repeat;
-  margin-right: auto;
-  margin-left: auto;
+  margin: auto;
   display: flex;
     justify-content: center;
 }
@@ -198,5 +199,57 @@ border: 3px solid #26C7EA;
 background: #0B0E66;
 text-align: center;
 margin-top: 335px;
+}
+.section-four {
+width: 1032px;
+height: 350px;
+margin: auto;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+
+.section-language {
+  width: 1440px;
+height: 704px;
+background-image: url("/image/Rectangle.20.png");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+margin: auto;
+}
+.title-language {
+  color: #141414;
+text-align: justify;
+ /* font-family: HeadlandOne;  */
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+display: flex;
+justify-content: center;
+} 
+.section-five {
+  width: 1438px;
+  height: 350px;
+  margin: auto;
+padding-top: 10px;
+}
+.footer {
+  width: 1440px;
+  height: 220px;
+  background-image: url("/image/footer-backgraund.png");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+margin: auto;
+display: flex;
+justify-content: space-between;
+}
+.logo-footer {
+  width: 183px;
+height: 70px;
+display: flex;
+padding-top: 77px;
 
 }
+
