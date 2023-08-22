@@ -27,7 +27,7 @@ p {
       rgba(43, 74, 97, 0.87),
       rgba(43, 74, 97, 0.87)
     ),
-    url("/image/Rectangle104.png");
+    url("../image/Rectangle104.png");
   background-repeat: no-repeat;
   background-size: cover;
   margin-left: auto;
@@ -211,7 +211,7 @@ padding-bottom: 10px;
 .section-language {
   width: 1440px;
 height: 704px;
-background-image: url("/image/Rectangle.20.png");
+background-image: url("./image/Rectangle.20.png");
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
